@@ -334,6 +334,36 @@
     fill: var(--rec-dm-shop-2) !important;
 }
 
+/*------ Threads ------*/
+[class^=threadIcon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
+[class^=icon_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"],
+[class^=iconWrapper_] path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"] {
+    fill: var(--rec-threads) !important;
+}
+.container__5b40b {
+  .spineBorder__5b40b {
+    background: var(--rec-threads-line) !important;
+  }
+  .containerDefault_c69b6d {
+    >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32 > .link__2ea32 {
+      border: 1px solid var(--rec-threads-line) !important;
+    }
+    >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 > .link__2ea32 {
+      border: 1px solid var(--rec-threads-line-effect) !important;
+    }
+    >.spine__5b40b path[d^="M0 13H2c0 1.6569 1.3432 3 3 3v2c-2.7614"],
+    >.spine__5b40b path[d^="M6 18V16H9v2H6Zm3 0V16s1"] {
+      fill: var(--rec-threads-line) !important;
+    }
+
+    &:hover {
+      >.iconVisibility_c69b6d.wrapper__2ea32.typeThread__2ea32 > .link__2ea32 {
+        border: 1px solid var(--rec-threads-line-effect) !important;
+      }
+    }
+  }
+}
+
 /*--- Message Delay ---*/
 .tabularNumbers__4bd52.text-sm\/medium_cf4812.cooldownText_b21699 {
   color: var(--rec-message-delay) !important;
